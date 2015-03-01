@@ -1,4 +1,4 @@
-FROM python:2
+FROM python:2-slim
 MAINTAINER Maciej Strzelecki <maciej.strzelecki@gmail.com>
 
 ENV AWSCLI_VERSION 1.7.12
