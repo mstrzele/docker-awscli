@@ -7,5 +7,7 @@ ENV AWSCLI_VERSION 1.7.12
 
 RUN pip install awscli==$AWSCLI_VERSION
 
+ENV PAGER cat
+
 ENTRYPOINT ["aws"]
 CMD ["help"]
